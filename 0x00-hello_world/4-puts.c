@@ -1,4 +1,7 @@
 #include <stdio.h>
+/**
+*this program prints using puts
+*/
 
 int main(void)
 {
