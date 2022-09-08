@@ -1,4 +1,7 @@
 #include<stdio.h>
+/**
+*this program show the sizes of variables
+*/
 
 int main(void){
 char c;
