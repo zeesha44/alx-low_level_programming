@@ -1,9 +1,14 @@
 #include<stdio.h>
 /**
-*this program show the sizes of variables
+*main - print the string in the put function
+*
+*Description: using the main function
+*this program prints the size of variable
+* Return: 0
 */
 
-int main(void){
+int main(void)
+{
 char c;
 int i;
 long li;
