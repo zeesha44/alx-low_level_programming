@@ -1,9 +1,14 @@
 #include<stdio.h>
 /**
-*this program show the sizes of variables
+*main - print the string in the put function
+*
+*Description: using the main function
+*this program prints the size of variable
+* Return: 0
 */
 
-int main(void){
+int main(void)
+{
 char c;
 int i;
 long li;
@@ -16,7 +21,7 @@ printf("Size of a long int: %1d byte(s)\n", sizeof(li));
 printf("Size of a long long int: %1d byte(s)\n", sizeof(lli));
 printf("Size of a float: %1d byte(s)\n", sizeof(f));
 
-return(0);
+return (0);
 
 
 }
