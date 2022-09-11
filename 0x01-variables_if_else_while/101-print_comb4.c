@@ -4,10 +4,9 @@
  *
  * Return: always 0
  */
-int main (void)
+int main(void)
 {
 	int d1, d2, d3;
-	
 	for (d1 = 0 ; d1 < 8 ; d1++)
 	{
 		for (d2 = d1 + 1 ; d2 < 9 ; d2++)
