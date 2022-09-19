@@ -13,7 +13,7 @@ void puts_half(char *str)
 
 	for (i = ((len - 1) / 2) + 1; i < len; i++)
 		putchar(*(str + i));
-	putchar(10)
+	putchar(10);
 }
 /**
  * _strlen - returns the length of a string
