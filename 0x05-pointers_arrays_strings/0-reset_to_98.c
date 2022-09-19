@@ -1,4 +1,8 @@
 #include <stdio.h>
+void reset_to_98(int *n)
+	{
+	*n = 98;
+	}
 
 /**
  * main - check the code
@@ -13,10 +17,5 @@ int main(void)
 	printf("n=%d\n", n);
 	reset_to_98(&n);
 	printf("n=%d\n", n);
-	
-	void reset_to_98(int *n)
-	{
-	*n = 98;
-	}
 	return (0);
 }
