@@ -17,5 +17,5 @@ void print_array(int *a, int n)
 		else
 			printf("%d", a[inc]);
 	}
-	putchar(10)
+	putchar(10);
 }
