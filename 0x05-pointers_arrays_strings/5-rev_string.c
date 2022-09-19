@@ -3,9 +3,9 @@
 /**
  * rev_strng - reverse a string
  * @s: string to be reversed
- * rev_string - reverse a string
  * Return: nothing
  */
+ 
 void rev_string(char *s)
 {
 	int i, tmp, len = _strlen(s);
