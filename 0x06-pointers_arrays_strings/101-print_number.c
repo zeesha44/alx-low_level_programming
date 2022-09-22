@@ -2,7 +2,7 @@
 
 /**
  * print_number - prints number
- * @n: integer to convert to character
+ * @n:integer to convert to character
  *
  */
 
@@ -34,13 +34,12 @@ void print_number(int n)
 		c++;
 	}
 	for (i = 0; i < c - 1; i++)
-	{
 		mult *= 10;
-	}
+
 	for (i = 0; i < c; i++)
 	{
 		_putchar((abs / mult) + '0');
-		abs abs % mult;
+		abs = abs % mult;
 		mult /= 10;
 	}
 }
