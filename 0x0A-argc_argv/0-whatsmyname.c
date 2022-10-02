@@ -1,7 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - prints its name follwed by a new line
- * @argc: this is the argument count 
+ * main - prints its name followed by a new line
+ *
+ * @argc: This is the argument count
  * @argv: argument vector
  * Return: 0
  */
