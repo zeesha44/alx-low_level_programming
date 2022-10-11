@@ -1,12 +1,10 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
-<<<<<<< HEAD
- * _strdup - returns a pointer to a newly allocated space in memory * @str: string to copy
-=======
+ * _strdup - returns a pointer to a newly allocated space in memory 
+ * @str: string to copy
  * _strdup - returns a pointer to a newly allocated space in memory
  * @str: string to copy
->>>>>>> de50aa2a709202bbd0f5f3edaf0237b76e74f2e9
  *
  * Return: Pointer
  */
