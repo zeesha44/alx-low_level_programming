@@ -1,5 +1,5 @@
 /**
- * int index - searches for an integer
+ * int_index - searches for an integer
  * @array: array of integer
  * @size: number of elements in array
  * @cmp: pointer to function used to compare values.
